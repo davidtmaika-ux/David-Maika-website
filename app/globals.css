@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0B0F14;
+  --bg-panel: #0F1720;
+  --navy: #0B1E33;
+  --text: #F5F3EE;
+  --text-dim: #9BA3AF;
+  --gold: #C9A227;
+  --burgundy: #7A2E3B;
+  --blue: #3B82F6;
+  --line: rgba(245, 243, 238, 0.09);
+  --good: #34D399;
+  --warn: #FBBF24;
+  --bad: #F87171;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-panel: var(--bg-panel);
+  --color-navy: var(--navy);
+  --color-text: var(--text);
+  --color-text-dim: var(--text-dim);
+  --color-gold: var(--gold);
+  --color-burgundy: var(--burgundy);
+  --color-blue: var(--blue);
+  --color-line: var(--line);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+::selection {
+  background: rgba(201, 162, 39, 0.3);
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(245, 243, 238, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245, 243, 238, 0.035) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
