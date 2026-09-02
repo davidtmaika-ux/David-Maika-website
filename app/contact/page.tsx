@@ -34,9 +34,7 @@ export default function ContactPage() {
           </a>
           {/* Replace # with your real LinkedIn profile URL */}
           <a
-            href="https://www.linkedin.com/in/david-maika/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             className="flex w-full items-center justify-center gap-2 rounded-md border border-line bg-white/[0.02] px-5 py-3.5 text-sm font-semibold hover:border-gold"
           >
             <ExternalLink size={16} /> LinkedIn Profile

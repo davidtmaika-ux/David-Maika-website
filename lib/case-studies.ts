@@ -31,8 +31,8 @@ export type CaseStudy = {
 
 export const caseStudies: CaseStudy[] = [
   {
-    slug: "flytrack-logistics",
-    client: "FlyTrack Logistics",
+    slug: "northbridge-logistics",
+    client: "Northbridge Logistics",
     industry: "Logistics",
     engagementType: "Enterprise Onboarding",
     role: "Junior CSM",
@@ -47,7 +47,7 @@ export const caseStudies: CaseStudy[] = [
       { value: "28.09%", label: "Exceptions at M6 (from 40%)", status: "good" },
     ],
     situation:
-      "FlyTrack Logistics -- founded 2018, 1,200 staff, 14 depots across Northern Nigeria and Cameroon -- signed a \u20a685 million contract with a 90-day go-live deadline. Every depot was running on a disconnected tracking system, producing a uniform ~40% delivery exception rate across all locations (15,069 dispatches, Jan-Mar 2026) -- a uniformity that pointed to a systemic tooling problem, not a people or geography one. The Operations Director's mandate was blunt: all 14 depots live in 90 days, no exceptions, and a 30% reduction in that exception rate within 6 months. He was also still carrying the scars of a failed 2024 ERP rollout that had gone live everywhere at once and caused a two-week total operational shutdown.",
+      "Northbridge Logistics -- founded 2018, 1,200 staff, 14 depots across Northern Nigeria and Cameroon -- signed a \u20a685 million contract with a 90-day go-live deadline. Every depot was running on a disconnected tracking system, producing a uniform ~40% delivery exception rate across all locations (15,069 dispatches, Jan-Mar 2026) -- a uniformity that pointed to a systemic tooling problem, not a people or geography one. The Operations Director's mandate was blunt: all 14 depots live in 90 days, no exceptions, and a 30% reduction in that exception rate within 6 months. He was also still carrying the scars of a failed 2024 ERP rollout that had gone live everywhere at once and caused a two-week total operational shutdown.",
     task:
       "As the Junior CSM on the account, the mandate was to hit both the 90-day go-live and the Operations Director's binding 30%-reduction KPI -- with an IT Manager who had only 4 hours a week of bandwidth, and a client who had every reason to distrust a repeat of the last rollout.",
     actions: [
@@ -64,8 +64,8 @@ export const caseStudies: CaseStudy[] = [
       "The uniform ~40% exception rate across every single depot was the biggest clue in this engagement -- it meant the problem was systemic, not situational, which is exactly why a phased, tooling-first rollout worked where the previous all-at-once ERP attempt had failed. I now treat identical bad numbers across every site as a specific diagnostic signal, not just bad luck.",
   },
   {
-    slug: "hubspot-zikoko",
-    client: "HubSpot \u00d7 Zikoko",
+    slug: "hubspot-ashford-cole",
+    client: "HubSpot \u00d7 Ashford & Cole",
     industry: "SaaS / Consulting",
     engagementType: "Account Health & Expansion Strategy",
     role: "CSM",
@@ -113,14 +113,14 @@ export const caseStudies: CaseStudy[] = [
         items: [
           "Weeks 9-10: A naira figure put on the upgrade -- hours saved, pipeline added, a \u20a64.8M admin hire avoided",
           "Weeks 10-11: MD's monthly board pack automated so Operations stops rebuilding it by hand",
-          "Week 11: Zikoko locked in as a reference customer for a 5% loyalty credit and co-marketing",
+          "Week 11: Ashford & Cole locked in as a reference customer for a 5% loyalty credit and co-marketing",
           "Weeks 11-12: Account scored against Enterprise-tier requirements, target upgrade date set",
           "Week 13: Open risks closed in writing, 90-day review run, health score upgraded to 'Stable Strategic'",
         ],
       },
     ],
     situation:
-      "Zikoko & Partners Consulting, a 38-person firm in Enugu, had been on HubSpot's Starter Plan (\u20a6480,000/year) for 18 months, fully self-managed. The usage signals were strong -- 100% user adoption (8/8 active), 1,240+ contacts (up from a 500 benchmark), a 38.6% email open rate (up from 25%), and 91% feature usage -- but the account had never had a single QBR, had cycled through multiple CSMs, and had a renewal due in 6 weeks with no outreach planned.",
+      "Ashford & Cole Consulting, a 38-person firm in Enugu, had been on HubSpot's Starter Plan (\u20a6480,000/year) for 18 months, fully self-managed. The usage signals were strong -- 100% user adoption (8/8 active), 1,240+ contacts (up from a 500 benchmark), a 38.6% email open rate (up from 25%), and 91% feature usage -- but the account had never had a single QBR, had cycled through multiple CSMs, and had a renewal due in 6 weeks with no outreach planned.",
     task:
       "Diagnose why a clearly engaged, high-usage account had been left commercially unmanaged, and build a plan that protected the renewal while capturing the expansion the usage data already pointed to.",
     actions: [
@@ -134,11 +134,11 @@ export const caseStudies: CaseStudy[] = [
     result:
       "The recommendation -- immediate renewal protection, upgrade to Professional, a dedicated strategic CSM, and a 90-day Mutual Success Plan -- was delivered and adopted as the account's new operating model.",
     reflection:
-      "Zikoko didn't outgrow HubSpot -- they outgrew their own product usage, and nobody was watching closely enough to notice. The failure here wasn't a lack of usage, it was a lack of process to act on data that was already sitting in plain sight. I now treat \"zero QBRs in 18 months\" as its own red flag, independent of how healthy the usage numbers look.",
+      "Ashford & Cole didn't outgrow HubSpot -- they outgrew their own product usage, and nobody was watching closely enough to notice. The failure here wasn't a lack of usage, it was a lack of process to act on data that was already sitting in plain sight. I now treat \"zero QBRs in 18 months\" as its own red flag, independent of how healthy the usage numbers look.",
   },
   {
-    slug: "lendwise",
-    client: "LendWise \u00d7 TYM Bank",
+    slug: "creditsphere-highgate",
+    client: "CreditSphere \u00d7 Highgate Microfinance Bank",
     industry: "Banking / Fintech Compliance",
     engagementType: "Compliance Escalation & Adoption Recovery",
     role: "Technical Account Manager",
@@ -197,7 +197,7 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     situation:
-      "TYM Bank (Tunde & Yewande Microfinance Bank) -- 14 branches across Oyo, Ogun, and Osun States, \u20a642M/year, Month 8 of a 24-month LendWise Enterprise contract. Adoption was strong in Oyo (89%) but critical in Ogun (31%) -- the single gating condition on an \u20a618M expansion decision from Managing Director Folasade Adeyemi. Then Compliance Officer Amara Nnaji flagged a misconfiguration in the CBN (Central Bank of Nigeria) non-performing loan reporting module: a regulated financial institution's regulatory submission was at risk of going out with inaccurate figures.",
+      "Highgate Microfinance Bank (Highgate Microfinance Bank) -- 14 branches across Oyo, Ogun, and Osun States, \u20a642M/year, Month 8 of a 24-month CreditSphere Enterprise contract. Adoption was strong in Oyo (89%) but critical in Ogun (31%) -- the single gating condition on an \u20a618M expansion decision from Managing Director Folasade Adeyemi. Then Compliance Officer Amara Nnaji flagged a misconfiguration in the CBN (Central Bank of Nigeria) non-performing loan reporting module: a regulated financial institution's regulatory submission was at risk of going out with inaccurate figures.",
     task:
       "Contain the regulatory incident within hours -- before any inaccurate report reached the CBN -- while keeping the much larger adoption and expansion story on track, in an account already stretched by a 4-week core-banking integration delay eating the client IT contact's available time.",
     actions: [
@@ -214,15 +214,15 @@ export const caseStudies: CaseStudy[] = [
       "The compliance incident and the adoption gap looked like two separate problems, but they were connected -- stale, manually-reconciled data from the slow regions was quietly compounding the exact regulatory risk that nearly became a crisis. I now look for that kind of hidden linkage by default: in a regulated account, an adoption problem in one region is rarely just a training issue somewhere else.",
   },
   {
-    slug: "crestfield-agro-allied",
-    client: "Wema Bank \u00d7 Crestfield Agro-Allied",
+    slug: "sahel-harvest-agro-allied",
+    client: "Sovereign Trust Bank \u00d7 Sahel Harvest Agro-Allied",
     industry: "Banking / Agribusiness",
     engagementType: "Competitive Retention Strategy",
     role: "Relationship Manager",
     challenge:
-      "A 5-year, \u20a628M/year banking relationship put at risk in a single sentence -- Crestfield's CEO mentioned Access Bank and Stanbic IBTC were already in the room for the \u20a6180M expansion loan he needed within the quarter.",
+      "A 5-year, \u20a628M/year banking relationship put at risk in a single sentence -- Sahel Harvest's CEO mentioned Access Bank and Stanbic IBTC were already in the room for the \u20a6180M expansion loan he needed within the quarter.",
     outcome:
-      "A retention strategy built on relationship depth rather than rate-matching -- a 5-business-day term sheet commitment, a loan structured around Crestfield's actual export cash flow, and a value case Access Bank and Stanbic IBTC couldn't replicate from a standing start.",
+      "A retention strategy built on relationship depth rather than rate-matching -- a 5-business-day term sheet commitment, a loan structured around Sahel Harvest's actual export cash flow, and a value case Access Bank and Stanbic IBTC couldn't replicate from a standing start.",
     tags: ["Competitive Retention", "Relationship Strategy", "Banking"],
     stats: [
       { value: "\u20a6180M", label: "Loan at Stake", status: "warn" },
@@ -241,13 +241,13 @@ export const caseStudies: CaseStudy[] = [
       { label: "Switching Friction", score: "3 products", status: "good", note: "Term loan, FX trade finance, and payroll all embedded in daily operations" },
     ],
     situation:
-      "Crestfield Agro-Allied -- a sesame and cashew export business banking with Wema for 5 years, with an active \u20a6350M term loan, FX trade finance on every export receipt from China and UAE buyers, and payroll processing for 220 staff. CEO Biodun mentioned, almost in passing, that Access Bank and Stanbic IBTC were already in conversation about the \u20a6180M expansion loan he needed for a Kano facility within the quarter. That casual framing was deliberate: a CEO doesn't waste words while discussing a nine-figure financing need. It was a test of response speed and a signal that Wema was no longer the default choice.",
+      "Sahel Harvest Agro-Allied -- a sesame and cashew export business banking with Wema for 5 years, with an active \u20a6350M term loan, FX trade finance on every export receipt from China and UAE buyers, and payroll processing for 220 staff. CEO Biodun mentioned, almost in passing, that Access Bank and Stanbic IBTC were already in conversation about the \u20a6180M expansion loan he needed for a Kano facility within the quarter. That casual framing was deliberate: a CEO doesn't waste words while discussing a nine-figure financing need. It was a test of response speed and a signal that Wema was no longer the default choice.",
     task:
       "Read the competitor mention correctly -- not as noise, but as the final warning before the relationship shifted -- and build a retention strategy that could compete against two larger banks without starting a rate war Wema couldn't win on scale alone.",
     actions: [
       "Diagnosed the real vulnerability first: three payroll delays in four months had put a personal, felt failure directly in front of 220 of Biodun's own staff -- a far bigger threat to the relationship than anything a competitor could offer on price",
-      "Reframed the competitive response around what five years of relationship data actually enabled: Crestfield's financials, credit history, and collateral were already on file, making a 5-business-day term sheet possible when a new bank would need weeks just for due diligence",
-      "Structured the proposed \u20a6180M loan around Crestfield's confirmed export receipt windows instead of generic fixed monthly instalments -- a structural advantage no competitor starting from zero could offer on Day 1",
+      "Reframed the competitive response around what five years of relationship data actually enabled: Sahel Harvest's financials, credit history, and collateral were already on file, making a 5-business-day term sheet possible when a new bank would need weeks just for due diligence",
+      "Structured the proposed \u20a6180M loan around Sahel Harvest's confirmed export receipt windows instead of generic fixed monthly instalments -- a structural advantage no competitor starting from zero could offer on Day 1",
       "Connected the new loan directly to Wema's existing FX trade finance relationship, framing the Kano expansion and currency-risk protection as one coherent growth story rather than two separate products",
       "Made the account's genuine switching friction visible without threatening the client with it -- payroll migration for 220 staff, disrupted FX flow mid-export-cycle, and fragmented banking relationships are real costs of leaving, not a scare tactic",
       "Built the retention case on three pillars: contextual intelligence competitors can't replicate, an integrated growth partnership spanning lending and FX, and switching cost as a source of stability rather than lock-in",
@@ -258,8 +258,8 @@ export const caseStudies: CaseStudy[] = [
       "The instinct when a competitor enters the picture is to compete on the thing they're offering -- rate, speed, terms. The stronger move was recognizing that a CEO who mentions competitors 'in passing' is still choosing to give you a chance. The real job wasn't winning a bidding war; it was making the five-year relationship's value legible before he had to weigh it against a stranger's brochure.",
   },
   {
-    slug: "nova-health-clinics",
-    client: "Nova Health Clinics",
+    slug: "beacon-health-clinics",
+    client: "Beacon Health Clinics",
     industry: "Healthcare",
     engagementType: "At-Risk Account Recovery",
     role: "CSM",
@@ -316,7 +316,7 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     situation:
-      "Nova Health Clinics -- a network of 8 private clinics, 9 months into a 12-month contract, with a renewal decision 6 months out. Their two goals at signing were a 25% reduction in patient no-shows and full staff adoption (32 staff) across all 8 clinics within 120 days. At the point of intervention, only 8% of the no-show reduction had been achieved, 3 clinics had zero active staff, NPS had fallen from +51 to +14, and the main contact, Ada Femi (Head of Operations), had twice flagged that senior management was questioning the platform's ROI.",
+      "Beacon Health Clinics -- a network of 8 private clinics, 9 months into a 12-month contract, with a renewal decision 6 months out. Their two goals at signing were a 25% reduction in patient no-shows and full staff adoption (32 staff) across all 8 clinics within 120 days. At the point of intervention, only 8% of the no-show reduction had been achieved, 3 clinics had zero active staff, NPS had fallen from +51 to +14, and the main contact, Ada Femi (Head of Operations), had twice flagged that senior management was questioning the platform's ROI.",
     task:
       "Stabilize a relationship that was Amber, not yet Red, before it tipped further -- fix the technical issue actively damaging trust, re-engage the three dormant clinics, and rebuild a credible, honest trajectory toward the original targets ahead of the renewal conversation.",
     actions: [
